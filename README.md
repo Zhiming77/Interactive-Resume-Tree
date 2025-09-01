@@ -6,10 +6,10 @@ An interactive resume built using the TreeCV approach - a hierarchical tree visu
 
 - **Interactive Tree Structure**: Click nodes to expand/collapse sections
 - **Color-Coded Sections**: 
-  - 🟢 Skills (Green nodes)
+  - 🟢 Skills & Additional Skills (Green nodes)
   - 🔵 Work Experience (Blue nodes) 
   - 🟡 Education (Yellow nodes)
-  - 🟣 Projects (Purple nodes)
+  - 🟠 Projects (Orange nodes)
 - **Responsive Design**: Works on desktop and mobile devices
 - **Modern UI**: Built with React, TypeScript, and Tailwind CSS
 - **Social Links**: Direct links to LinkedIn, GitHub, and Behance
