@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { ChevronRight, ChevronDown, ExternalLink, Github, Linkedin } from 'lucide-react'
+import { useState } from 'react'
+import { ChevronRight, ChevronDown, Linkedin, Github, ExternalLink } from 'lucide-react'
 
 interface TreeNode {
   name: string
