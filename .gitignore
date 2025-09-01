@@ -8,7 +8,7 @@ dist
 .env.test.local
 .env.production.local
 
-# Image files (except profile picture)
+# Image files (except profile picture and favicon)
 *.jpg
 *.jpeg
 *.png
@@ -19,3 +19,5 @@ dist
 *.tiff
 *.ico
 !profile-picture.jpg
+!favicon.svg
+!favicon.ico
