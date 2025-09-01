@@ -1,4 +1,3 @@
-import React from 'react'
 import { ExternalLink, Github, Cloud, Database, Shield } from 'lucide-react'
 
 const Projects = () => {
