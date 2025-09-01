@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ChevronRight, ChevronDown, Linkedin, Github, ExternalLink } from 'lucide-react'
+import { ChevronRight, ChevronDown, Linkedin, Github, ExternalLink, Mail } from 'lucide-react'
 
 interface TreeNode {
   name: string
@@ -422,7 +422,18 @@ const TreeCV = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-white mb-2">Benjamin Harry Skoler</h1>
-          <p className="text-gray-300 text-base mb-8">Aspiring Cloud Engineer | Freelance Designer/Content Writer | Technical Project Management | Growth Hacking</p>
+          <p className="text-gray-300 text-base mb-6">Aspiring Cloud Engineer | Freelance Designer/Content Writer | Technical Project Management | Growth Hacking</p>
+          
+          {/* Email Link */}
+          <div className="flex justify-center mb-8">
+            <a 
+              href="mailto:bhs240@nyu.edu" 
+              className="group flex items-center space-x-2 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg border border-gray-600 transition-all duration-200 hover:scale-105"
+            >
+              <Mail className="w-5 h-5 text-white group-hover:text-blue-300" />
+              <span className="text-white text-sm font-medium">bhs240@nyu.edu</span>
+            </a>
+          </div>
           
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent mb-6 mx-auto"></div>
         </div>
